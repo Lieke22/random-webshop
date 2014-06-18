@@ -12,7 +12,7 @@ two:
   image_url: MyString
   price: 9.99
 
-tea_bag:
+ruby:
   title:  LoveTeaBag
   description:  For when you really love tea
   price:  10.00
