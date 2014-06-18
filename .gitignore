@@ -1,6 +1,8 @@
 *.rbc
 capybara-*.html
 .rspec
+.idea/*
+.DS_Store
 /log
 /tmp
 /db/*.sqlite3
