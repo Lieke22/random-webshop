@@ -1,0 +1,21 @@
+nl:
+
+  layouts:
+    application:
+      title:        "Random Webwinkel Boekenplank"
+      home:         "Home"
+      questions:    "Vragen"
+      news:         "Nieuws"
+      contact:      "Contact"
+
+  store:
+    index:
+      title_html:   "Jouw Catalogus"
+      add_html:     "Voeg toe aan winkelwagen"
+
+
+  carts:
+    cart:
+      title:        "Jouw winkelwagen"
+      empty:        "Winkelwagen legen"
+      checkout:     "Afrekenen"
