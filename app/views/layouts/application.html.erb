@@ -16,6 +16,7 @@
      <% end %>
   <%= image_tag("logo.png") %>
   <%= @page_title || t('.title') %>
+
 </div>
 <div id="columns">
   <div id="side">
@@ -39,7 +40,17 @@
           <li><%= link_to 'Users',    users_path    %></li>
         </ul>
         <%= button_to 'Logout', logout_path, method: :delete   %>
-    <% end %>
+
+  <% end %>
+
+    <div id="Time">
+    </div>
+    <br />
+    <br />
+  <p class="Time">
+    <%= DateTime.now.strftime("%d/%m/%Y") %>
+    </p>
+
   </div>
   <div id="main">
     <%= yield %>

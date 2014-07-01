@@ -24,8 +24,11 @@
 
   img {
     float: left;
+    font: bold smaller sans-serif;
+
   }
 }
+
 
 #notice {
   color: #000 !important;
@@ -39,10 +42,16 @@
 #columns {
   background: #141;
 
+
   #main {
     margin-left: 17em;
     padding: 1em;
     background: white;
+  }
+
+  .Time {
+    color: #dfd;
+
   }
 
 //#START:side
