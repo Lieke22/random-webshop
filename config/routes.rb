@@ -1,5 +1,8 @@
 Theekoning::Application.routes.draw do
   get 'admin' => 'admin#index'
+  get 'faq' => 'pages#faq'
+  get 'contact' => 'pages#contact'
+  get 'news' => 'pages#news'
 
   controller :sessions do
     get  'login' => :new
@@ -20,6 +23,15 @@ Theekoning::Application.routes.draw do
     resources :orders
     resources :line_items
     resources :carts
+    resources :pages
     root 'store#index', as: 'store', via: :all
+
   end
+
+
+
+
+
+
+
 end
